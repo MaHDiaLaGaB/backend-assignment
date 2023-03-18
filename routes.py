@@ -1,0 +1,6 @@
+REGISTER = "register/"
+TOKEN = "token/"
+PROFILE = "profile/"
+ARTICLE = "article/"
+GET_ARTICLE = ARTICLE + "{id}/"
+REFRESH = "token/refresh/"
