@@ -53,3 +53,7 @@ async def get_article_endpoint(
 ):
     article = the_api.get_article(article_id=_id)
     return article
+
+
+if __name__ == "__main__":
+    uvicorn.run(app=app, host="0.0.0.0", port=5555)
